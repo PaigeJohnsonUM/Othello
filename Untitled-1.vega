@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "OthelloAnalysis.csv"
+    },
+    "width": 500,
+    "height": 300,
+    "padding": 2,
+    "title": {
+        "text": "Number of Words Spoken by Each Named Character"
+    },
+    "repeat": {
+        "layer": [
+            "Words #"
+        ]
+    },
+    "spec": {
+        "mark": "bar",
+        "encoding": {
+            "x": {
+                "field": "Name",
+                "type": "nominal",
+                "title": null
+            },
+            "y": {
+                "aggregate": "sum",
+                "field": {
+                    "repeat": "layer"
+                },
+                "type": "quantitative",
+                "title": null
+            },
+            "color": {
+                "field": "pop",
+                "scale": {
+                    "range": [
+                        "red",
+                        "blue",
+                        "gray"
+                    ]
+                },
+                "title": "Legend"
+            },
+            "xOffset": {
+                "datum": {
+                    "repeat": "layer"
+                }
+            }
+        }
+    },
+    "config": {
+        "mark": {
+            "invalid": null
+        }
+    }
+}

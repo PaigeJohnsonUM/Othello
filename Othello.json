@@ -1,0 +1,431 @@
+{
+    "nodes": [
+        {
+            "name": "Iago",
+            "group": 0,
+            "index": 0
+        },
+        {
+            "name": "Othello",
+            "group": 0,
+            "index": 1
+        },
+        {
+            "name": "Desdemona",
+            "group": 1,
+            "index": 2
+        },
+        {
+            "name": "Duke of Venice",
+            "group": 1,
+            "index": 3
+        },
+        {
+            "name": "Brabantio",
+            "group": 1,
+            "index": 4
+        },
+        {
+            "name": "Grantiano",
+            "group": 1,
+            "index": 5
+        },
+        {
+            "name": "Lodovico",
+            "group": 1,
+            "index": 6
+        },
+        {
+            "name": "Cassio",
+            "group": 1,
+            "index": 7
+        },
+        {
+            "name": "Roderigo",
+            "group": 1,
+            "index": 8
+        },
+        {
+            "name": "Montano",
+            "group": 1,
+            "index": 9
+        },
+        {
+            "name": "Clown",
+            "group": 1,
+            "index": 10
+        },
+        {
+            "name": "Emilia",
+            "group": 1,
+            "index": 11
+        },
+        {
+            "name": "Bianca",
+            "group": 1,
+            "index": 12
+        },
+        {
+            "name": "Sailor",
+            "group": 1,
+            "index": 13
+        },
+        {
+            "name": "Messenger",
+            "group": 1,
+            "index": 14
+        },
+        {
+            "name": "Herald",
+            "group": 1,
+            "index": 15
+        },
+        {
+            "name": "Officers",
+            "group": 1,
+            "index": 16
+        },
+        {
+            "name": "Attendants",
+            "group": 1,
+            "index": 17
+        },
+        {
+            "name": "First Senator",
+            "group": 1,
+            "index": 18
+        },
+        {
+            "name": "Second Senator",
+            "group": 1,
+            "index": 19
+        },
+        {
+            "name": "Gentlemen",
+            "group": 1,
+            "index": 20
+        },
+        {
+            "name": "Musicians",
+            "group": 1,
+            "index": 21
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 9
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 3
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 8,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 8,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 1,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 18,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 19,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "value": 1
+        },
+        {
+            "source": 19,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 19,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 18,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 13,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 13,
+            "target": 18,
+            "value": 1
+        },
+        {
+            "source": 13,
+            "target": 19,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 18,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 19,
+            "value": 1
+        },
+        {
+            "source": 14,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 14,
+            "target": 18,
+            "value": 1
+        },
+        {
+            "source": 14,
+            "target": 19,
+            "value": 1
+        },
+        {
+            "source": 14,
+            "target": 16,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 18,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 18,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 18,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 19,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 19,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 19,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 1,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 18,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 19,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 16,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 17,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 18,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 19,
+            "value": 1
+        }
+    ]
+}
